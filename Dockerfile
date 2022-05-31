@@ -20,4 +20,4 @@ COPY . .
 RUN npm run build
 
 EXPOSE 8097
-CMD [ "http-server", "dist" ]
+CMD [ "http-server", "dist", "--gzip"]

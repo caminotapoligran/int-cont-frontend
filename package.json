@@ -7,8 +7,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "create:image-docker": "docker build -t int-cont-frontend .",
-    "run:container-docker": "docker run -it -p 8097:8080 -e 'HOST=0.0.0.0' --rm int-cont-frontend"
+    "start:docker": "docker-compose up --build"
   },
   "dependencies": {
     "core-js": "^3.8.3",
